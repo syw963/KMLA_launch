@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="app_bg">#121417</color>
-    <color name="widget_bg">#1E2329</color>
-    <color name="widget_text_primary">#E8EAED</color>
-    <color name="widget_text_secondary">#9AA4B1</color>
-    <color name="widget_tab_selected_bg">#24425E</color>
-    <color name="widget_tab_selected_text">#CFE6FF</color>
+    <color name="app_bg">#111316</color>
+    <color name="widget_bg">#1C2026</color>
+    <color name="widget_track">#2A3038</color>
+    <color name="widget_accent">#9CCBF5</color>
+    <color name="widget_on_accent">#0A2540</color>
+    <color name="widget_text_primary">#F0F2F5</color>
+    <color name="widget_text_secondary">#B3BCC7</color>
+    <color name="widget_text_tertiary">#7D8794</color>
 </resources>

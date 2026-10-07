@@ -5,8 +5,12 @@
     android:layout_height="match_parent"
     android:background="@drawable/widget_bg"
     android:orientation="vertical"
-    android:padding="14dp">
+    android:paddingStart="16dp"
+    android:paddingTop="12dp"
+    android:paddingEnd="12dp"
+    android:paddingBottom="12dp">
 
+    <!-- 날짜 + 새로고침 -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,25 +25,30 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:text="@string/app_name"
-            android:textColor="@color/widget_text_primary"
-            android:textSize="15sp"
+            android:textColor="@color/widget_text_secondary"
+            android:textSize="13sp"
             android:textStyle="bold" />
 
         <ImageView
             android:id="@+id/widget_refresh"
-            android:layout_width="32dp"
-            android:layout_height="32dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/icon_button_bg"
             android:contentDescription="@string/refresh"
             android:padding="6dp"
             android:src="@drawable/ic_refresh"
             android:tint="@color/widget_text_secondary" />
     </LinearLayout>
 
+    <!-- 아침 / 점심 / 저녁 세그먼트 -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="34dp"
         android:layout_marginTop="6dp"
-        android:orientation="horizontal">
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/tab_track_bg"
+        android:orientation="horizontal"
+        android:padding="3dp">
 
         <TextView
             android:id="@+id/tab_breakfast"
@@ -57,18 +66,27 @@
             android:text="@string/dinner" />
     </LinearLayout>
 
-    <TextView
-        android:id="@+id/widget_menu"
+    <!-- 메뉴 (공간이 넉넉하면 1칸, 메뉴가 많으면 2칸) -->
+    <LinearLayout
+        android:id="@+id/widget_menu_area"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_marginTop="10dp"
+        android:layout_marginEnd="4dp"
         android:layout_weight="1"
-        android:ellipsize="end"
-        android:gravity="top|start"
-        android:lineSpacingExtra="3dp"
-        android:text="@string/loading"
-        android:textColor="@color/widget_text_primary"
-        android:textSize="14sp" />
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/widget_menu"
+            style="@style/WidgetMenuText"
+            android:text="@string/loading" />
+
+        <TextView
+            android:id="@+id/widget_menu_2"
+            style="@style/WidgetMenuText"
+            android:layout_marginStart="12dp"
+            android:visibility="gone" />
+    </LinearLayout>
 
     <TextView
         android:id="@+id/widget_status"
@@ -77,6 +95,6 @@
         android:layout_marginTop="4dp"
         android:ellipsize="end"
         android:singleLine="true"
-        android:textColor="@color/widget_text_secondary"
+        android:textColor="@color/widget_text_tertiary"
         android:textSize="11sp" />
 </LinearLayout>

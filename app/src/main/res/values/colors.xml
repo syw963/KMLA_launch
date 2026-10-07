@@ -3,8 +3,10 @@
     <color name="ic_launcher_background">#074275</color>
     <color name="app_bg">#F2F4F7</color>
     <color name="widget_bg">#FFFFFF</color>
-    <color name="widget_text_primary">#1B1F24</color>
-    <color name="widget_text_secondary">#5F6B7A</color>
-    <color name="widget_tab_selected_bg">#E1ECF7</color>
-    <color name="widget_tab_selected_text">#074275</color>
+    <color name="widget_track">#EEF1F5</color>
+    <color name="widget_accent">#074275</color>
+    <color name="widget_on_accent">#FFFFFF</color>
+    <color name="widget_text_primary">#14181D</color>
+    <color name="widget_text_secondary">#4F5967</color>
+    <color name="widget_text_tertiary">#8A93A0</color>
 </resources>
