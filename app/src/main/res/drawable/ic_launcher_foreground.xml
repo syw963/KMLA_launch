@@ -1,0 +1,29 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- 김 -->
+    <path
+        android:pathData="M44,44 C40,39 48,36 44,30"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M54,44 C50,39 58,36 54,30"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <path
+        android:pathData="M64,44 C60,39 68,36 64,30"
+        android:strokeWidth="3.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeLineCap="round" />
+    <!-- 그릇 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52 L78,52 A24,24 0,0 1,30 52 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M45,76 L63,76 L63,80 L45,80 Z" />
+</vector>

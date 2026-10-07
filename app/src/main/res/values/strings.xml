@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">민사고 급식</string>
+    <string name="widget_name">민사고 급식</string>
+    <string name="widget_description">오늘 아침·점심·저녁 메뉴를 시간에 맞춰 보여줍니다</string>
+    <string name="breakfast">아침</string>
+    <string name="lunch">점심</string>
+    <string name="dinner">저녁</string>
+    <string name="refresh">새로고침</string>
+    <string name="loading">메뉴를 불러오는 중…</string>
+    <string name="refreshing">업데이트 중…</string>
+    <string name="load_failed">메뉴를 불러오지 못했어요.\n오른쪽 위 ↻ 를 눌러 다시 시도하세요.</string>
+    <string name="no_menu">%1$s 메뉴 정보가 없어요</string>
+    <string name="updated_at">%1$s 업데이트</string>
+    <string name="refresh_error">불러오기 실패: %1$s</string>
+    <string name="widget_hint">홈 화면 빈 곳을 길게 누름 → 위젯 → \'민사고 급식\'을 끌어다 놓으면 위젯이 추가됩니다.\n위젯은 시간에 따라 아침(~8:30) · 점심(~13:30) · 저녁 메뉴를 자동으로 보여주고, 탭을 눌러 다른 끼니를 볼 수 있어요.</string>
+</resources>
